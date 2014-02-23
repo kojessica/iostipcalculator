@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface settingsViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIPickerView *currencyPicker;
 @end

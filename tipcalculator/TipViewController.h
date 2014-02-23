@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TipViewController : UIViewController
+@interface TipViewController : UIViewController {
+    IBOutlet UILabel *label;
+}
 
 @end
